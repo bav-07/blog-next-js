@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link';
+import bavPic from '../public/images/bavProfilePic.JPG'
 
 const name = 'Bav Nagarajah';
 export const siteTitle = 'Next.js Blog';
@@ -30,7 +31,7 @@ export default function Layout({children, home}) {
                     <>
                         <Image
                             priority
-                            src="/images/bavProfilePic.jpg"
+                            src={bavPic}
                             className={utilStyles.borderCircle}
                             height={144}
                             width={144}
@@ -43,7 +44,7 @@ export default function Layout({children, home}) {
                         <Link href="/">
                             <Image
                                 priority
-                                src="/images/bavProfilePic.jpg"
+                                src={bavPic}
                                 className={utilStyles.borderCircle}
                                 height={108}
                                 width={108}
