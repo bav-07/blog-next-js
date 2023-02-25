@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link';
-import bavProfilePic from './bavProfilePic.jpg'
+import bavProfilePic from './bavProfilePic.JPG'
 
 const name = 'Bav Nagarajah';
 export const siteTitle = 'Next.js Blog';
